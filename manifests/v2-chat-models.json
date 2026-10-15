@@ -1,0 +1,160 @@
+{
+  "version": 2,
+  "release": "v2-chat",
+  "releaseBase": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/",
+  "assetNaming": "<repoPath>--<path with / replaced by -->",
+  "models": [
+    {
+      "id": "gemma-3-1b-it-q4",
+      "tier": "small",
+      "minRamGb": 4,
+      "repoPath": "chat-gemma3-1b-it-q4",
+      "upstream": "https://huggingface.co/onnx-community/gemma-3-1b-it-ONNX",
+      "runtime": [
+        "transformers-onnx"
+      ],
+      "totalBytes": 879783932,
+      "files": [
+        {
+          "path": "config.json",
+          "asset": "chat-gemma3-1b-it-q4--config.json",
+          "bytes": 1975,
+          "sha256": "91e864295e06e3069a26e89dc5d7e506d32153b23a29bf283e8e3a46fc546806",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-1b-it-q4--config.json"
+        },
+        {
+          "path": "generation_config.json",
+          "asset": "chat-gemma3-1b-it-q4--generation_config.json",
+          "bytes": 244,
+          "sha256": "2ff57fef908e4da8accc2e369d2c848785e6f2f8c5d1ed102bd9cb9aa70f7aaa",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-1b-it-q4--generation_config.json"
+        },
+        {
+          "path": "tokenizer.json",
+          "asset": "chat-gemma3-1b-it-q4--tokenizer.json",
+          "bytes": 20323013,
+          "sha256": "55da1312bdf1d7d8fe8d9d1b3eed04086261149e6034e0ac3f8c633b67f5aac8",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-1b-it-q4--tokenizer.json"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "asset": "chat-gemma3-1b-it-q4--tokenizer_config.json",
+          "bytes": 2327,
+          "sha256": "362055c2b4c69af56db94be4f1297bc6d2936a8f4ab9c0173b5bedd502280507",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-1b-it-q4--tokenizer_config.json"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "asset": "chat-gemma3-1b-it-q4--special_tokens_map.json",
+          "bytes": 662,
+          "sha256": "2f7b0adf4fb469770bb1490e3e35df87b1dc578246c5e7e6fc76ecf33213a397",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-1b-it-q4--special_tokens_map.json"
+        },
+        {
+          "path": "chat_template.jinja",
+          "asset": "chat-gemma3-1b-it-q4--chat_template.jinja",
+          "bytes": 1532,
+          "sha256": "7de1c58e208eda46e9c7f86397df37ec49883aeece39fb961e0a6b24088dd3c4",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-1b-it-q4--chat_template.jinja"
+        },
+        {
+          "path": "onnx/model_q4.onnx",
+          "asset": "chat-gemma3-1b-it-q4--onnx--model_q4.onnx",
+          "bytes": 347363,
+          "sha256": "69686023e5892376e38fcbcdd0c77af432c55b3bcd03aee6d561bd1f04507da0",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-1b-it-q4--onnx--model_q4.onnx"
+        },
+        {
+          "path": "onnx/model_q4.onnx_data",
+          "asset": "chat-gemma3-1b-it-q4--onnx--model_q4.onnx_data",
+          "bytes": 859106816,
+          "sha256": "c2370070be257a98d50e17d81be13e18304c39e7e6d9d1416f8f883681d2a17b",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-1b-it-q4--onnx--model_q4.onnx_data"
+        }
+      ]
+    },
+    {
+      "id": "gemma-3-4b-it-q4",
+      "tier": "large",
+      "minRamGb": 8,
+      "repoPath": "chat-gemma3-4b-it-q4",
+      "upstream": "https://huggingface.co/onnx-community/gemma-3-4b-it-ONNX",
+      "runtime": [
+        "transformers-onnx"
+      ],
+      "totalBytes": 3206285744,
+      "files": [
+        {
+          "path": "config.json",
+          "asset": "chat-gemma3-4b-it-q4--config.json",
+          "bytes": 3141,
+          "sha256": "91ce553f569274a83003d6bcc0b750ff8bfab5ce607410695f0a28b3a12281c5",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-4b-it-q4--config.json"
+        },
+        {
+          "path": "generation_config.json",
+          "asset": "chat-gemma3-4b-it-q4--generation_config.json",
+          "bytes": 244,
+          "sha256": "2ff57fef908e4da8accc2e369d2c848785e6f2f8c5d1ed102bd9cb9aa70f7aaa",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-4b-it-q4--generation_config.json"
+        },
+        {
+          "path": "tokenizer.json",
+          "asset": "chat-gemma3-4b-it-q4--tokenizer.json",
+          "bytes": 20323105,
+          "sha256": "b472c7c2d1a2ac607daa53c794575e59504c06b39579a0f2399bb95cea6a4949",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-4b-it-q4--tokenizer.json"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "asset": "chat-gemma3-4b-it-q4--tokenizer_config.json",
+          "bytes": 2327,
+          "sha256": "362055c2b4c69af56db94be4f1297bc6d2936a8f4ab9c0173b5bedd502280507",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-4b-it-q4--tokenizer_config.json"
+        },
+        {
+          "path": "chat_template.jinja",
+          "asset": "chat-gemma3-4b-it-q4--chat_template.jinja",
+          "bytes": 1532,
+          "sha256": "7de1c58e208eda46e9c7f86397df37ec49883aeece39fb961e0a6b24088dd3c4",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-4b-it-q4--chat_template.jinja"
+        },
+        {
+          "path": "onnx/decoder_model_merged_q4.onnx",
+          "asset": "chat-gemma3-4b-it-q4--onnx--decoder_model_merged_q4.onnx",
+          "bytes": 467689,
+          "sha256": "70269ef03c0cdb9c1f247c4ac76e75036ee7df09757b9ac165308fd80738df71",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-4b-it-q4--onnx--decoder_model_merged_q4.onnx"
+        },
+        {
+          "path": "onnx/decoder_model_merged_q4.onnx_data",
+          "asset": "chat-gemma3-4b-it-q4--onnx--decoder_model_merged_q4.onnx_data",
+          "bytes": 2093692928,
+          "sha256": "4d339ace22e320b447a52e7861367328efd4a4b742920ed0bab0c0631e99b46c",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-4b-it-q4--onnx--decoder_model_merged_q4.onnx_data"
+        },
+        {
+          "path": "onnx/decoder_model_merged_q4.onnx_data_1",
+          "asset": "chat-gemma3-4b-it-q4--onnx--decoder_model_merged_q4.onnx_data_1",
+          "bytes": 661772800,
+          "sha256": "c854198bff7eeac9948f675148f3b4f0582e433f9bc1326a3d3af55cf82cbb02",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-4b-it-q4--onnx--decoder_model_merged_q4.onnx_data_1"
+        },
+        {
+          "path": "onnx/embed_tokens_q4.onnx",
+          "asset": "chat-gemma3-4b-it-q4--onnx--embed_tokens_q4.onnx",
+          "bytes": 858,
+          "sha256": "152862f7d988a855514daa3e88643cd15288f88a395930e69bf765a5679e8ccf",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-4b-it-q4--onnx--embed_tokens_q4.onnx"
+        },
+        {
+          "path": "onnx/embed_tokens_q4.onnx_data",
+          "asset": "chat-gemma3-4b-it-q4--onnx--embed_tokens_q4.onnx_data",
+          "bytes": 430021120,
+          "sha256": "6b137a3b8184478ffd73c2e9e9af38874f9dfd8a16401cc095093dc10fef5896",
+          "url": "https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-4b-it-q4--onnx--embed_tokens_q4.onnx_data"
+        }
+      ]
+    }
+  ]
+}
