@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "file": "tokenizer.json",
+  "bytes": 33384567,
+  "sha256": "daab2354f8a74e70d70b4d1f804939b68a8c9624dd06cb7858e52dd8970e9726",
+  "parts": [
+    "tokenizer-parts/tokenizer.part000.bin",
+    "tokenizer-parts/tokenizer.part001.bin",
+    "tokenizer-parts/tokenizer.part002.bin"
+  ],
+  "partBytes": [
+    15728640,
+    15728640,
+    1927287
+  ]
+}
