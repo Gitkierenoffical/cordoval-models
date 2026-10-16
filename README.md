@@ -63,3 +63,19 @@ Full list (bytes, sha256, URL): [`manifests/v2-chat-models.json`](manifests/v2-c
 | [`chat-gemma3-4b-it-q4--onnx--embed_tokens_q4.onnx_data`](https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-chat/chat-gemma3-4b-it-q4--onnx--embed_tokens_q4.onnx_data) | 430,021,120 |
 
 Licence: Gemma Terms of Use (https://ai.google.dev/gemma/terms).
+
+## v2 speech-to-text voice models (GitHub Release `v2-voice`)
+
+Unmodified files from the sherpa-onnx pack `sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17`
+(Hugging Face mirror `csukuangfj/...`) and `silero_vad.onnx` from the k2-fsa/sherpa-onnx `asr-models` release.
+Details in [`manifests/v2-voice-models.json`](manifests/v2-voice-models.json).
+
+| Asset | Bytes | sha256 |
+|---|---|---|
+| [`voice-sensevoice-small--model.int8.onnx`](https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-voice/voice-sensevoice-small--model.int8.onnx) | 239,233,841 | `c71f0ce00bec95b07744e116345e33d8cbbe08cef896382cf907bf4b51a2cd51` |
+| [`voice-sensevoice-small--tokens.txt`](https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-voice/voice-sensevoice-small--tokens.txt) | 315,894 | `f449eb28dc567533d7fa59be34e2abca8784f771850c78a47fb731a31429a1dc` |
+| [`voice-sensevoice-small--vad--silero_vad.onnx`](https://github.com/Gitkierenoffical/cordoval-models/releases/download/v2-voice/voice-sensevoice-small--vad--silero_vad.onnx) | 643,854 | `9e2449e1087496d8d4caba907f23e0bd3f78d91fa552479bb9c23ac09cbb1fd6` |
+
+### Licences
+- **SenseVoice Small** (FunAudioLLM / Alibaba): FunASR Model Open Source License. See https://github.com/modelscope/FunASR?tab=readme-ov-file#license. Keep the attribution and licence notice when you redistribute.
+- **Silero VAD** (snakers4/silero-vad): MIT License, Copyright (c) Silero Team.
